@@ -2,7 +2,7 @@
 
 Zotero 6.0 for Windows, Linux, and Mac as well as a valuable add-on for your browser, called Zotero-Connector (we talk about the add-on later), are available on the [website](https://www.zotero.org/download/). After downloading Zotero 6.0, follow the installation procedure as usual.
 
-After starting the fresh install of Zotero you will see the following program window. The program is basically devided into the windows (left, middle, right). 
+After starting Zotero you will see the following program window. The program is basically devided into the windows (left, middle, right). 
 
  ![](images/02a.png)
 
