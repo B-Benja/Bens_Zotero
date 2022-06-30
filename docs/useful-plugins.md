@@ -72,7 +72,7 @@ As mentioned previously, Zotero has a big community and offers multiple Plugins 
 A Zotero plugin to manage your attachments (described above).
 
 [Better BibTex](https://retorque.re/zotero-better-bibtex/)  
-A Plugin for better Latex support ([already discussed in a previous chapter](/adding-citations/))
+A Plugin for better Latex support ([already discussed in a previous chapter](/adding-citations.md)) Test
 
 [zotero-auto-index](https://github.com/retorquere/zotero-auto-index#readme)  
 Automatically keeps your attachments indexed.
