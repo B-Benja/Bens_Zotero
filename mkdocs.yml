@@ -18,7 +18,7 @@ theme:
  features:
    - navigation.tabs
    - navigation.tabs.sticky
-    - navigation.instant
+   - navigation.instant
  palette:
    - media: "(prefers-color-scheme: light)" 
      scheme: default
