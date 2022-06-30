@@ -6,12 +6,12 @@ repo_name: B-Benja/Bens_Zotero
 repo_url: https://github.com/B-Benja/Bens_Zotero
 
 nav:
-    - zotero/index.md
-    - zotero/first-steps.md
-    - zotero/organizing-content.md
-    - zotero/adding-citations.md
-    - zotero/syncing.md
-    - zotero/useful-plugins.md
+    - index.md
+    - first-steps.md
+    - organizing-content.md
+    - adding-citations.md
+    - syncing.md
+    - useful-plugins.md
  
 theme:
  name: material
