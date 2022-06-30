@@ -26,21 +26,21 @@ My preferred way is to add the document/PDF directly. If you downloaded a docume
  ![](images/02-addpdf.png)
 
 
-2.	**Importing from the browser**  
-Use a browser addon to import articles from your browser
+2.	**Importing via the browser**  
+Use a browser addon to import articles with your browser
     * Install Zotero Connector for your browser of choice ([available on the website](https://www.zotero.org/download/))
-    * When searching article databases, library catalogs, web search engines, and other resources, different icons will appear in the menu bar of your browser. The article, book, or page icons in the address bar indicate you are viewing a single item, and clicking on that icon will import the information into your library and in many cases automatically download the article.
-    *	You can also add webpages without articles in the same way.
+    * When using article databases, library catalogs, web search engines, and other resources, different icons will appear in the menu bar of your browser. The article, book, or page icons in the address bar indicate that you are viewing a single item, and clicking on the icon will import the information into your library. In many cases it also automatically downloads the article.
+    * You can add webpages without articles in the same way. Zotero even takea a screenshot of the webpage. 
 
  ![](images/02-addbrowser.gif)
 
 
-3.	**Adding manually**  
+3.	**Adding literature manually**  
 Importing citations into your Zotero collections does not always work without hick-ups. If no icon appears in the address bar or the information is not imported correctly, you may want to use another option.  
- ![](images/02manually1.png) Use this option to add an item manually. Select the item type from the drop-down menu and enter the item's bibliographic information in the item details pane.  
+ ![](images/02manually1.png) Use this option to add an item manually. Select the item type from the drop-down menu and enter the item's bibliographic information in the item details panel.  
  ![](images/02manually2.png) If you already know the ISBN, Digital Object Identifier (DOI), or PubMed ID of the item, enter it using this option.
 
 
 
 4.	**Other**  
-To import libraries from other reference management tools into Zotero (like BibTex, RIS, RDF), start by exporting the bibliographic data from your other software program. In Zotero, you will find the Import option under File in the menu bar.  Browse to your file, select it, and click the “Open” button
+To import libraries from other reference management tools into Zotero (like BibTex, RIS, RDF), start by exporting the bibliographic data from your other software program. In Zotero, you will find the Import option under File in the menu bar.  Browse to your file, select it, and click the “Open” button.
