@@ -11,7 +11,7 @@ After starting Zotero you will see the following program window. The program is 
 3. On the right side you can find information and metadata about the selected article.
 
 !!! info "**Zotero Items**"
-    Zotero organizes documents as Items. Each item stores the metadata of the added document, such as Author, title, and year. You can add multiple attachments to each item, such as PDF, Word document or notes, screenshots, etc
+    Zotero organizes documents as Items. Each item stores metadata of the added document, such as Author, title, and year. You can add multiple attachments to each item, such as PDFs, Word documents or notes and screenshots. 
 
 
 ## Adding your first article…
