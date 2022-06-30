@@ -2,9 +2,11 @@
 
 Zotero 6.0 for Windows, Linux, and Mac as well as a valuable add-on for your browser, called Zotero-Connector (we talk about the add-on later), are available on the [website](https://www.zotero.org/download/). After downloading Zotero 6.0, follow the installation procedure as usual.
 
+After starting the fresh install of Zotero you will see the following program window. The program is basically devided into the windows (left, middle, right). 
+
  ![](images/02a.png)
 
-1. Collections (and subcollections) are helpful not to get lost in the sea of documents you gathered. You can create a collection for each article you write, projects you work on, or by topic. It is up to you. [How to create Collections.](images/01collection.gif)
+1. Collections (and subcollections) are helpful to not get lost in the sea of documents you gathered. You can create a collection for each article you write, projects you work on, or by topic. It is up to you. [How to create Collections.](images/01collection.gif)
 2. If you click on a collection, you see all its articles in the middle. By default they are sorted by title. You can change the sorting order by clicking on the different column names. Additionally, you can add additional and/or custom columns - as demonstrated [in the short video.](images/02columns.gif)
 3. On the right side you can find information and metadata about the selected article.
 
