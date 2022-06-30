@@ -31,6 +31,7 @@ A second Note type is *Standalone Notes*. Standalone notes are not directly rela
 
 **Relations**  
 Your articles and entries can also have relationships (isn't that nice?). In the right column, switch to the *Related* tab. Here you can choose other articles related to the entry you selected.  
+(If you are you on your mobile and don't see the following .gif, switch to desktop view)
 
 ![](images/related.gif)
 
