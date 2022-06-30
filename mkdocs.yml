@@ -1,0 +1,60 @@
+site_name: Learn about Zotero
+ 
+nav:
+    - zotero/index.md
+    - zotero/first-steps.md
+    - zotero/organizing-content.md
+    - zotero/adding-citations.md
+    - zotero/syncing.md
+    - zotero/useful-plugins.md
+ 
+theme:
+ name: material
+ features:
+   - navigation.tabs
+   - navigation.tabs.sticky
+    - navigation.instant
+ palette:
+   - media: "(prefers-color-scheme: light)" 
+     scheme: default
+     accent: pink
+     toggle:
+       icon: material/weather-night
+       name: Welcome to the dark side
+   - media: "(prefers-color-scheme: dark)" 
+     scheme: slate
+     primary: pink
+     toggle:
+       icon: material/weather-sunny
+       name: Let there be light
+
+
+copyright: Copyright &copy; Benjamin Buettner with &hearts;
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
