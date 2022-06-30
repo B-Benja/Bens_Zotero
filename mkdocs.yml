@@ -1,5 +1,10 @@
 site_name: Learn about Zotero
- 
+site_url: https://b-benja.github.io/Bens_Zotero/
+site_author: Benjamin Buettner
+
+repo_name: B-Benja/Bens_Zotero
+repo_url: https://github.com/B-Benja/Bens_Zotero
+
 nav:
     - zotero/index.md
     - zotero/first-steps.md
