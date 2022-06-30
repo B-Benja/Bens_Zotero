@@ -1,4 +1,4 @@
-name: ci 
+name: zotero
 on:
   push:
     branches:
