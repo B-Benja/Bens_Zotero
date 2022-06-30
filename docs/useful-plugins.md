@@ -19,7 +19,7 @@ Open the preferences of ZotFile
 If you want to watch a folder and add the content automatically (I rarely use this feature, though)
 
 **Location of Files**  
- Change to Custom Location and use **the same path** as for Links Attachment Base Directory! ([changed in previous chapter](/syncing/))
+ Change to Custom Location and use **the same path** as for Links Attachment Base Directory! (changed in the previous chapter about syncing)
 
 If you want to organize the documents in the directory, you can tick the *Use subfolder defined by box*. In my case, `/%y` creates subfolders by year.
 
@@ -72,7 +72,7 @@ As mentioned previously, Zotero has a big community and offers multiple Plugins 
 A Zotero plugin to manage your attachments (described above).
 
 [Better BibTex](https://retorque.re/zotero-better-bibtex/)  
-A Plugin for better Latex support ([already discussed in a previous chapter](/adding-citations/))
+A Plugin for better Latex support (already discussed in a earlier chapter)
 
 [zotero-auto-index](https://github.com/retorquere/zotero-auto-index#readme)  
 Automatically keeps your attachments indexed.
