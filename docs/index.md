@@ -36,7 +36,7 @@ The reasons I settled with Zotero are:
 
 - [x]	Excellent citation style support
 
-    Zotero supports almost any citation style needed. If your exact style is missing, you can (most of the time) easily create it yourself and implement it.
+    Zotero supports almost any citation style needed. If your specific style is missing, you can (most of the time) easily create it yourself by changing an existing one.
 
 
 Now that I have your attion let's talk about Zotero. 
