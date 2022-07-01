@@ -21,6 +21,8 @@ If you want to watch a folder and add the content automatically (I rarely use th
 **Location of Files**  
  Change to Custom Location and use **the same path** as for Links Attachment Base Directory! (changed in the previous chapter about syncing)
 
+
+
 If you want to organize the documents in the directory, you can tick the *Use subfolder defined by box*. In my case, `/%y` creates subfolders by year.
 
 
@@ -34,6 +36,7 @@ In this tab, you can specify how to rename your documents on your hard disc. So 
 My preference is to use subfolders to organize the documents by year and rename the document to AUTHOR NAME_YEAR_TITLE.
 
 To do so, you need to change **Format for all Item Types except Patents** to `{%a_}{%y_}{%t}`.
+
 
 
 
