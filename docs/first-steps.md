@@ -1,6 +1,6 @@
 ## Let’s get ready to Zotero
 
-Zotero 6.0 for Windows, Linux, and Mac as well as a valuable add-on for your browser, called Zotero-Connector (we talk about the add-on later), are available on the [website](https://www.zotero.org/download/). After downloading Zotero 6.0, follow the installation procedure as usual.
+Zotero 6.0 for Windows, Linux, and Mac as well as a valuable add-on for your browser, called Zotero-Connector (we talk about the add-on later), are available on the [website](https://www.zotero.org/download/). After downloading Zotero 6.0 (or the current version), follow the installation procedure as usual.
 
 After starting Zotero you will see the following program window. The program is basically devided into three areas (left, middle, right). 
 
@@ -20,18 +20,18 @@ I know we were all anticipating this moment: it is finally time to add the first
 
 1.	**Adding a document (e.g. PDFs) manually**  
  My preferred way is to add the document/PDF directly. If you downloaded a document, just drag and drop the file into Zotero. It will automatically create an entry item and add all the necessary information.
-  * If information is missing or incorrect you can manually make adjustments on the right side.
-  * If Zotero doesn’t create an entry from the PDF, you can right-click on the file and choose *Retrieve Metadata for PDF*
+  - If information is missing or incorrect you can manually make adjustments on the right side.
+  - If Zotero doesn’t create an entry from the PDF, you can right-click on the file and choose *Retrieve Metadata for PDF*
 
  ![](images/02-addpdf.png)
 
 
 2.	**Importing documents via the browser**  
  Use a browser addon to import articles with your browser
-  * Install Zotero Connector for your browser of choice ([available on the website](https://www.zotero.org/download/))
-  * When using article databases, library catalogs, web search engines, and other resources, different icons will appear in the menu bar of your browser. The article, book, or page icon in the address bar indicates that you are viewing a single item
-  * Click on the icon to import the information into your library (into the currently selected collection/subcollection). In many cases it also automatically downloads the article.
-  * You can add webpages without articles in the same way. Zotero even takes a screenshot of the webpage (this behavior can be changed in the settings: `Edit - Preferences - General - Automatically take snapshots when creating items from web pages`). 
+  - Install Zotero Connector for your browser of choice ([available on the website](https://www.zotero.org/download/))
+  - When using article databases, library catalogs, web search engines, and other resources, different icons will appear in the menu bar of your browser. The article, book, or page icon in the address bar indicates that you are viewing a single item
+  - Click on the icon to import the information into your library (into the currently selected collection/subcollection). In many cases it also automatically downloads the article.
+  - You can add webpages without articles in the same way. Zotero even takes a screenshot of the webpage (this behavior can be changed in the settings: `Edit - Preferences - General - Automatically take snapshots when creating items from web pages`). 
 
  ![](images/02-addbrowser.gif)
 
