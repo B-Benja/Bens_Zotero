@@ -28,6 +28,7 @@ If you want to organize the documents in the directory, you can tick the *Use su
 ### Renaming Rules
 
 ![](images/05dsubfolder.png){ align=right width="300"}
+
 In this tab, you can specify how to rename your documents on your hard disc. So that they are conveniently named outside of Zotero.
 
 My preference is to use subfolders to organize the documents by year and rename the document to AUTHOR NAME_YEAR_TITLE.
