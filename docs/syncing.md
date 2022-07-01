@@ -22,6 +22,8 @@ The basic account is free and offers 300 Mb of storage space. There are cheap pr
 
 Change the **Links Attachment Base Directory** to the directory of your preference. You can also point it to a directory on your cloud service of choice, so that the documents are available on multiple devices (in the example picture, I store them on OneDrive). If you store the documents in a cloud, be aware that you maybe share sensitive data with the cloud provider.
 
+
+
 !!! warning
     Don’t save the Data Directory on a cloud server/folder. It will break Zotero eventually.
     Keep the Data Directory locally and backup it from time to time if necessary!
