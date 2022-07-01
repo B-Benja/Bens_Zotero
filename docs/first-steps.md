@@ -25,7 +25,7 @@ I know we were all anticipating this moment: it is finally time to add the first
 
  ![](images/02-addpdf.png)
 
-{:start="2"}
+
 2.	**Importing documents via the browser**  
  Use a browser addon to import articles with your browser
   * Install Zotero Connector for your browser of choice ([available on the website](https://www.zotero.org/download/))
@@ -35,12 +35,12 @@ I know we were all anticipating this moment: it is finally time to add the first
 
  ![](images/02-addbrowser.gif)
 
-{:start="3"}
+
 3.	**Adding literature manually**  
  Importing citations into your Zotero collections does not always work without hiccups. If no icon appears in the address bar or the information is not imported correctly, you may want to use a different option.  
  ![](images/02manually1.png) Use the little green + button to add an item manually. Select the item type from the drop-down menu and enter the item's bibliographic information in the item details panel.  
  ![](images/02manually2.png) If you already know the ISBN, Digital Object Identifier (DOI), or PubMed ID of the item, enter it using the magic wand button.
 
-{:start="4"}
+
 4.	**Other**  
  To import libraries from other reference management tools into Zotero (like BibTex, RIS, RDF), start by exporting the bibliographic data from the other software program. In Zotero, you will find the Import option under File in the menu bar. Browse to your file, select it, and click the “Open” button.
