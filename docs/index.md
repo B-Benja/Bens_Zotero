@@ -1,6 +1,9 @@
 ---
 title: "What is Zotero?"
 ---
+
+*Excuse me, do you have a moment to talk about Zotero?*
+
 # Zoter-what?
 
 Zotero is an open-source bibliography and citation manager. It makes collecting, storing and organizing literature easier, supports exporting citations to Latex or Word, and offers many more handy features.
@@ -36,4 +39,4 @@ The reasons I settled with Zotero are:
     Zotero supports almost any citation style needed. If your exact style is missing, you can (most of the time) easily create it yourself and implement it.
 
 
-Now that I have your attion, let's talk about Zotero. 
+Now that I have your attion let's talk about Zotero. 
