@@ -24,6 +24,8 @@ Change the **Links Attachment Base Directory** to the directory of your preferen
 
 <br>
 
+<br>
+
 !!! warning
     Don’t save the Data Directory on a cloud server/folder. It will break Zotero eventually.
     Keep the Data Directory locally and backup it from time to time if necessary!
