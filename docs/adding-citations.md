@@ -6,7 +6,7 @@ hide:
 Zotero offers a vast variety of different citation styles. You can choose your preferred one under  
 `Edit - Preferences - Export`
 
-Afterward it is possible to export entries by `right-click - Create Bibliography from item...`.  
+Afterward it is possible to export entries by right-clicking `Create Bibliography from item...`.  
 However, most people use Zotero in combination with a Word processing Software. In the following, I will describe a convenient way to use Zotero with Latex, MS Word or LibreOffice.
 
 
@@ -37,7 +37,7 @@ However, most people use Zotero in combination with a Word processing Software. 
     If the last name is missing, BibTex will use the first name. If both names are missing, the short title of the article will be used.
 
     ## Exporting Bibliography
-    To export the bibliography (.bib file), you can right-click on single entries, Collections or multiple entries, and choose `Export Item/Collection`. In the new Export window, choose `Better BibTex` and pick the needed Translator Options.
+    To export the bibliography (.bib file), you can right-click on single entries, collections or multiple entries, and choose `Export Item/Collection`. In the new Export window, choose `Better BibTex` and pick the needed Translator Options.
 
     ![](images/bibtexexport.gif)
 
@@ -101,13 +101,13 @@ However, most people use Zotero in combination with a Word processing Software. 
 
 
     ### Adding citations to a Word document
-    While writing your document, when you get to a point where you want to add a citation, click on the insert citation button in the toolbar and then search for the citation in your collection in the citation dialog. Select your citation from the options shown, then hit enter. If you would like to insert multiple citations, continue typing after selecting the first reference.
+    While writing your document, when you get to a point where you want to add a citation, click on the insert citation button in the toolbar and search for the needed citation in the citation dialog. Select your citation from the options shown, then hit enter. If you would like to insert multiple citations, continue typing after selecting the first reference.
 
     ![](images/zotero_toword.gif)
 
-    If you want to add details to a citation, such as a comment before or after, or a page number, click on the reference in the citation dialog to open a pop-up that allows you to enter the information.
+    If you want to add details to a citation, such as a comment before or after, or a page number, click on the reference in the citation dialog to open a pop-up window that allows you to enter additional information.
 
-    If you click on the Z in the citation dialog, the option to look at the *Classic View* will appear. This opens a window that gives you access to all of your directories and saved citations in your folder. You can also add comments and page numbers in this window, as well as selecting multiple references to be combined in one citation. If you prefer this view, you can set it as the default under `Preferences - Cite - Word Processors - Use classic Add Citation dialog`.
+    By clicking on the Z in the citation dialog, the option to look at the *Classic View* will appear. This opens a window that gives you access to all of your directories and saved citations in your folder. You can also add comments and page numbers in this window, as well as selecting multiple references to be combined into one citation. If you prefer this view, you can set it as the default under `Preferences - Cite - Word Processors - Use classic Add Citation dialog`.
 
 
 
@@ -146,10 +146,10 @@ However, most people use Zotero in combination with a Word processing Software. 
 
 
     ### Adding citations to a LibreOffice documents
-    While writing your document, when you get to a point where you want to add a citation, click on the insert citation button in the toolbar and then search for the citation in your collection in the citation dialog. Select your citation from the options shown, then hit enter. If you would like to insert multiple citations, continue typing after selecting the first reference.
+    While writing your document, when you get to a point where you want to add a citation, click on the insert citation button in the toolbar and search for the citation in your collection in the citation dialog. Select your citation from the options shown, then hit enter. If you would like to insert multiple citations, continue typing after selecting the first reference.
 
     ![](images/libreoffice.gif)
 
     If you want to add details to a citation, such as a comment before or after or a page number, click on the reference in the citation dialog to open a pop-up that allows you to enter the information.
 
-    If you click on the Z in the citation dialog, the option to look at the *Classic View* will appear. This opens a window that gives you access to all of your directories and saved citations in your folder. You can also add comments and page numbers in this window, as well as selecting multiple references to be combined in one citation. If you prefer this view, you can set it as the default under `Preferences - Cite - Word Processors - Use classic Add Citation dialog`.
+    By clicking on the Z in the citation dialog, the option to look at the *Classic View* will appear. This opens a window that gives you access to all of your directories and saved citations in your folder. You can also add comments and page numbers in this window, as well as selecting multiple references to be combined into one citation. If you prefer this view, you can set it as the default under `Preferences - Cite - Word Processors - Use classic Add Citation dialog`.
