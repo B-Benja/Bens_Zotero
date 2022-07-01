@@ -64,7 +64,7 @@ Afterward, you can delete the original document from your download folder (or wh
     With linked files, Zotero only stores a link to the original file's location on your computer. Linked files were not introduced by Zotero itself, but by the previously installed Plugin ZotFile. The advantage is the previously discussed possibility of using your own server, renaming rules, etc. The downside is, however, that you have to manually delete files outside of Zotero. If you ever want to delete a document you have to delete it in Zotero AND in the destination folder.
 
 
-### Other Plugins
+## Other Plugins
 
 As mentioned previously, Zotero has a big community and offers multiple Plugins to improve its functionality. Please check the [official website](https://www.zotero.org/support/plugins) for an overview of Plugins. Since it highly depends on your personal preference, I will not give detailed explanations about the other Plugins. Please feel free to contact me if you have any questions.
 
