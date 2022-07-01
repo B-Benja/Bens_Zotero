@@ -15,15 +15,14 @@ The basic account is free and offers 300 Mb of storage space. There are cheap pr
 
 3. After connecting your account, deactivate the synchronization of attachments.
 
-1. Change to the Advanced Tab, and in the Advanced Tab to *Files and Folders*  
+4. Change to the Advanced Tab, and in the Advanced Tab to *Files and Folders*  
 `Edit - Preferences - Advanced Tab - Files and Folders`
 
 ![](images/04.png){align=right width=400}
 
 Change the **Links Attachment Base Directory** to the directory of your preference. You can also point it to a directory on your cloud service of choice, so that the documents are available on multiple devices (in the example picture, I store them on OneDrive). If you store the documents in a cloud, be aware that you maybe share sensitive data with the cloud provider.
 
-&nbsp;
-&nbsp;
+<br>
 
 !!! warning
     Don’t save the Data Directory on a cloud server/folder. It will break Zotero eventually.
