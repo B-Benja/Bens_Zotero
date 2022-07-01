@@ -37,9 +37,8 @@ My preference is to use subfolders to organize the documents by year and rename 
 
 To do so, you need to change **Format for all Item Types except Patents** to `{%a_}{%y_}{%t}`.
 
-
-
-
+&nbsp;
+&nbsp;
 Resulting in the following structure outside of Zotero:
 
 ![](images/05csubfolder.gif)
