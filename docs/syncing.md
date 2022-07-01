@@ -1,6 +1,6 @@
 Before we dig deeper, we should address one key functionality of Zotero. The program allows multiple devices to sync your collections, articles, preferences, and data. It does so by uploading the data to Zotero servers (if you enable the option).
 
-However, even though I feel comfortable storing the metadata externally, I don’t like to store the documents themselves on Zotero servers (not so much a matter of distrust, but practicability; privacy; and I already have my own cloud).
+However, even though I feel comfortable storing metadata externally, I don’t like to store the documents themselves on Zotero servers (not so much a matter of distrust, but practicability; privacy; and I already have my own cloud).
 
 In the following steps, I will explain how you can store the information about your collection online while keeping the documents offline (or at your preferred destination).
 
@@ -13,7 +13,8 @@ In the following steps, I will explain how you can store the information about y
 
 The basic account is free and offers 300 Mb of storage space. There are cheap premium accounts available (https://www.zotero.org/settings/storage) if you prefer to host everything on their servers. If you follow my instructions and don’t upload the documents directly, 300 Mb are more than sufficient.
 
-3. After connecting your account, deactivate the synchronization of attachments.
+{:start="3"}
+3. After linking your account deactivate the synchronization of attachments.
 
 4. Change to the Advanced Tab, and in the Advanced Tab to *Files and Folders*  
 `Edit - Preferences - Advanced Tab - Files and Folders`
@@ -28,6 +29,6 @@ Change the **Links Attachment Base Directory** to the directory of your preferen
 
 !!! warning
     Don’t save the Data Directory on a cloud server/folder. It will break Zotero eventually.
-    Keep the Data Directory locally and backup it from time to time if necessary!
+    Keep the Data Directory locally and back it up regularly!
 
 Almost done, hang in there! Maybe get a cup of coffee. Let’s make a couple of additional changes in the next chapter to make our life easier.
