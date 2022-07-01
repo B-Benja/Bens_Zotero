@@ -11,15 +11,17 @@ The following text demonstrates how to use Zotero (more precisely, how **_I_** u
 ![](images/zotero.png)
 
 ## To Zotero or not to Zotero, that is the question
-If you are doing a Ph.D. or other research-related work, you have probably already asked yourself how to organize all the literature. There are many different tools out there. They all have one thing in common: they all have advantages and disadvantages, making it impossible to provide the perfect tool for everyone. In the end, it boils down to personal preferences. The reasons I settled with Zotero are:
+If you are doing a Ph.D. or other research-related work, you have probably already asked yourself how to organize all necessary literature. There are many different tools out there. They all have one thing in common: all have advantages and disadvantages, making it impossible to provide the perfect tool for everyone. In the end, it boils down to personal preferences.
+
+The reasons I settled with Zotero are:
 
 - [x]	Open source
 
-    Zotero is fully open source and benefits from all its advantages: if the team ever abandons the project, new developers could step in; and of course, you can contribute as well)
+    Zotero is fully open source and benefits from all its advantages: transparency, community contributions, and if the team ever abandons the project, new developers could step in (of course, you can contribute as well).
 
 - [x]	Free & non-profit
   
-    Zotero is free. You can buy additional online storage, though, it is neither mandatory nor necessary. I will explain how to host everything locally or in your own cloud. 
+    Zotero is free. You can buy additional online storage, though it is neither mandatory nor necessary. I will explain how to host everything locally or in your own cloud. 
 
 - [x]	Popular & a big community
   
@@ -27,11 +29,11 @@ If you are doing a Ph.D. or other research-related work, you have probably alrea
 
 - [x]   Availability
 
-    Available for most systems: use it on Mac, Windows, and Linux
+    Available for most systems: use it on Mac, Windows, Linux and partly on your phone.
 
 - [x]	Excellent citation style support
 
-    Almost any style needed exists or can be implemented.
+    Zotero supports almost any citation style needed. If your exact style is missing, you can (most of the time) easily create it yourself and implement it.
 
 
 Now that I have your attion, let's talk about Zotero. 
