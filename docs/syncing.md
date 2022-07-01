@@ -5,15 +5,15 @@ However, even though I feel comfortable storing metadata externally, I don’t l
 In the following steps, I will explain how you can store the information about your collection online while keeping the documents offline (or at your preferred destination).
 
 1. Open the Sync tab under preferences  
-`Edit - Preferences - Sync`
+    `Edit - Preferences - Sync`
 
 2. Create a free Zotero account & link it with your program
 
-![](images/login.png){align=right width=400}
+    ![](images/login.png){align=right width=400}
 
-The basic account is free and offers 300 Mb of storage space. There are cheap premium accounts available (https://www.zotero.org/settings/storage) if you prefer to host everything on their servers. If you follow my instructions and don’t upload the documents directly, 300 Mb are more than sufficient.
+    The basic account is free and offers 300 Mb of storage space. There are cheap premium accounts available (https://www.zotero.org/settings/storage) if you prefer to host everything on their servers. If you follow my instructions and don’t upload the documents directly, 300 Mb are more than sufficient.
 
-{:start="3"}
+
 3. After linking your account deactivate the synchronization of attachments.
 
 4. Change to the Advanced Tab, and in the Advanced Tab to *Files and Folders*  
