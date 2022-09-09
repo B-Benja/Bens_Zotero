@@ -1,5 +1,5 @@
 ---
-title: "What is Zotero? (Baby Don't Hurt Me)"
+title: "What is Zotero?"
 ---
 
 *Excuse me, do you have a moment to talk about Zotero?*
