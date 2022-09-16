@@ -19,7 +19,9 @@ Zotero provides a quick search (right upper corner), to search within the Title,
 ![](images/search.gif)
 
 
-**Advanced search**
+
+**Advanced search**  
+
 You can perform more advanced searches by clicking the magnifying glass icon at the top of the library pane. Here you can filter items by the content of specific fields, and items will only show up if they satisfy all the criteria specified.
 
 ![](images/advanced_search.png)
