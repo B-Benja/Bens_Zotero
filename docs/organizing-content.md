@@ -18,6 +18,16 @@ Zotero provides a quick search (right upper corner), to search within the Title,
 
 ![](images/search.gif)
 
+
+**Advanced search**
+You can perform more advanced searches by clicking the magnifying glass icon at the top of the library pane. Here you can filter items by the content of specific fields, and items will only show up if they satisfy all the criteria specified.
+
+![](images/advanced_search.png)
+
+When you perform an advanced search you have the option of saving the search (see image above). Saved searches are continuously updated with items matching the search criteria, so they’re a powerful way to keep track of items coming in to your library or items you’re making changes to. You can also use saved searches to do things like correcting metadata associated with your citations. For example, by selecting *URL* 'does not contain' *%* you can always see which items require editing to ensure they don’t miss key pieces of information you may want them to have.
+
+
+
 **Notes**  
 To create a note attached to an item, select the item from the list in the center window and either click the *New Note* button at the top and select *Add Child Note*, or go to the *Notes* tab in the right window and click the *Add* button.
 
