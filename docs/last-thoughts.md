@@ -6,4 +6,4 @@ You finished setting up Zotero in the way **_I_** use it. Start adding literatur
 
 Last but not least, don’t forget to support the fantastic project by [Getting Involved With Zotero](https://www.zotero.org/getinvolved). Of course, you can also support the development of useful plugins, like [Better BibTex]( https://retorque.re/zotero-better-bibtex/sponsoring/) or [ZotFile]( http://zotfile.com/).
 
-Keep on ![](https://icon-icons.com/icon/zotero/94401)otero(ing)!
+Keep on Zotero(ing)!

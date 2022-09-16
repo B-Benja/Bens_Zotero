@@ -4,7 +4,8 @@ The following page provides a collection of useful functions and Quality of Life
 
 ## Case Converter
 Right-click on the 'Title' field on the right side after selecting an item to convert it to 'Title Case', 'Sentence Case', or 'BBT sentence case'.
-![](/images/CaseConverter.gif)
+
+![](images/CaseConverter.gif)
 
 ## Colaboration & Zotero Groups
 Zotero Groups is a handy feature that allows you to work on collaborative projects. I don’t use this feature, but you can find more information on the official [Zotero website](https://www.zotero.org/groups/).
