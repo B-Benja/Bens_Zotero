@@ -12,6 +12,8 @@ nav:
     - adding-citations.md
     - syncing.md
     - useful-plugins.md
+    - small-hacks.md
+    - final-thoughts.md
  
 theme:
  name: material
