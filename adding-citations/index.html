@@ -1,0 +1,861 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Benjamin Buettner">
+      
+      
+        <link rel="canonical" href="https://b-benja.github.io/Bens_Zotero/adding-citations/">
+      
+      
+        <link rel="prev" href="../organizing-content/">
+      
+      
+        <link rel="next" href="../syncing/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+    
+    
+      
+        <title>Adding citations - Learn about Zotero</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.85bb2934.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a6bdf11c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#better-bibtex-preferences" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Learn about Zotero" class="md-header__button md-logo" aria-label="Learn about Zotero" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Learn about Zotero
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Adding citations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink"  aria-label="Welcome to the dark side"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Welcome to the dark side" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Let there be light"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Let there be light" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/B-Benja/Bens_Zotero" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    B-Benja/Bens_Zotero
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      What is Zotero?
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../first-steps/" class="md-tabs__link">
+      First steps
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../organizing-content/" class="md-tabs__link">
+      Organizing content
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Adding citations
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../syncing/" class="md-tabs__link">
+      Syncing
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../useful-plugins/" class="md-tabs__link">
+      Useful plugins
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../QoL/" class="md-tabs__link">
+      QoL improvements
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../working_overleaf/" class="md-tabs__link">
+      Overleaf & Zotero
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../last-thoughts/" class="md-tabs__link">
+      The end
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Learn about Zotero" class="md-nav__button md-logo" aria-label="Learn about Zotero" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Learn about Zotero
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/B-Benja/Bens_Zotero" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    B-Benja/Bens_Zotero
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        What is Zotero?
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../first-steps/" class="md-nav__link">
+        First steps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../organizing-content/" class="md-nav__link">
+        Organizing content
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Adding citations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Adding citations
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#better-bibtex-preferences" class="md-nav__link">
+    Better BibTex Preferences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exporting-bibliography" class="md-nav__link">
+    Exporting Bibliography
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#within-latex" class="md-nav__link">
+    Within Latex
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overleaf-and-zotero" class="md-nav__link">
+    Overleaf and Zotero
+  </a>
+  
+    <nav class="md-nav" aria-label="Overleaf and Zotero">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#within-ms-word" class="md-nav__link">
+    Within MS Word
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-citations-to-a-word-document" class="md-nav__link">
+    Adding citations to a Word document
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#within-libreoffice" class="md-nav__link">
+    Within LibreOffice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-citations-to-a-libreoffice-documents" class="md-nav__link">
+    Adding citations to a LibreOffice documents
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syncing/" class="md-nav__link">
+        Syncing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../useful-plugins/" class="md-nav__link">
+        Useful plugins
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../QoL/" class="md-nav__link">
+        QoL improvements
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../working_overleaf/" class="md-nav__link">
+        Overleaf & Zotero
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../last-thoughts/" class="md-nav__link">
+        The end
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#better-bibtex-preferences" class="md-nav__link">
+    Better BibTex Preferences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exporting-bibliography" class="md-nav__link">
+    Exporting Bibliography
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#within-latex" class="md-nav__link">
+    Within Latex
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overleaf-and-zotero" class="md-nav__link">
+    Overleaf and Zotero
+  </a>
+  
+    <nav class="md-nav" aria-label="Overleaf and Zotero">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#within-ms-word" class="md-nav__link">
+    Within MS Word
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-citations-to-a-word-document" class="md-nav__link">
+    Adding citations to a Word document
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#within-libreoffice" class="md-nav__link">
+    Within LibreOffice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-citations-to-a-libreoffice-documents" class="md-nav__link">
+    Adding citations to a LibreOffice documents
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Adding citations</h1>
+
+<p>Zotero offers a wide variety of different citation styles. You can choose your preferred one under<br />
+<code>Edit - Preferences - Export</code></p>
+<p>Afterward, it is possible to export entries by right-clicking <code>Create Bibliography from item...</code>.<br />
+However, most people use Zotero in combination with Word processing Software. In the following, I will describe a convenient way to use Zotero with Latex, MS Word, or LibreOffice.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Latex</label><label for="__tabbed_1_2">MS Word</label><label for="__tabbed_1_3">LibreOffice</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>To use Zotero with Latex, I recommend installing the Plugin Better BibTex first. The plugin offers many improvements and customization options. It will, e.g., automatically create a custom Citation Key for each entry of your Zotero Database. To install the Plugin:</p>
+<ol>
+<li>Visit the <a href="https://github.com/retorquere/zotero-better-bibtex/releases">official website</a> and download the plugin (if you use Firefox, you will need to right-click on Download and choose Save Link as…)</li>
+<li>Install the downloaded .xpi file &amp; restart Zotero (<a href="../images/zotero_bib.gif">Short video explanation</a>)<br />
+<code>Tools – Addons – Gear Wheel – Install Addon from File</code></li>
+</ol>
+<h2 id="better-bibtex-preferences">Better BibTex Preferences</h2>
+<p>After the installation, you will find a new tab under Preferences.
+<code>Edit - Preferences - Better BibTex</code></p>
+<p><img alt="" src="../images/bibtex_preferences.png" /></p>
+<p>The plugin allows you to make many adjustments and customize most aspects. Since most options are self-explanatory, up to personal preference, and very well documented on the <a href="https://retorque.re/zotero-better-bibtex/">official website</a>, I will only discuss the settings in which I deviate from the default settings.</p>
+<p><code>Edit - Preferences - Better BibTex - Citation keys - Citation key format</code></p>
+<p>This option dictates the composition of the Citation key. The default value includes the short title of the article, which makes things rather messy.
+I prefer shorter keys, using only the author's last name and publication year. </p>
+<p><code>[auth:lower][&gt;0][year] | [PublicationTitle][&gt;0][year] | [title][year]</code></p>
+<p>If the last name is missing, BibTex will use the first name. If both names are missing, the short title of the article will be used.</p>
+<h2 id="exporting-bibliography">Exporting Bibliography</h2>
+<p>To export the bibliography (.bib file), you can right-click on single entries, collections, or multiple entries and choose <code>Export Item/Collection</code>. Select 'Better BibTex' in the newly appearing Export window and pick the needed Translator Options.</p>
+<p><img alt="" src="../images/bibtexexport.gif" /></p>
+<h2 id="within-latex">Within Latex</h2>
+<p>Now you can easily refer to the .bib file in Latex as usual.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Latex Code</label><label for="__tabbed_2_2">Renders to</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">\usepackage</span><span class="na">[utf8]</span><span class="nb">{</span>inputenc<span class="nb">}</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">\usepackage</span><span class="na">[authoryear]</span><span class="nb">{</span>natbib<span class="nb">}</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="k">\bibliographystyle</span><span class="nb">{</span>ecta<span class="nb">}</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>And now we can cite our Zotero entries: <span class="k">\cite</span><span class="nb">{</span>derassenfosse2020<span class="nb">}</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">\bibliography</span><span class="nb">{</span>the<span class="k">\_</span>from<span class="k">\_</span>zotero<span class="k">\_</span>exported<span class="k">\_</span>bib<span class="k">\_</span>file<span class="nb">}</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p><img alt="" src="../images/latex_output.png" /></p>
+</div>
+</div>
+</div>
+<h2 id="overleaf-and-zotero">Overleaf and Zotero</h2>
+<p>Find more information on how to synchronise .bib files with the online Latex service Overleaf <a href="/Bens_Zotero/working_overleaf/">in the section Overleaf &amp; Zotero</a>.</p>
+</div>
+<div class="tabbed-block">
+<p>The word processor plugins for Microsoft Word are bundled with the base installation of Zotero and should be installed automatically for each word processor when you first start Zotero. The plugin will allow you to insert citations as you write.</p>
+<p>If the plugin wasn't installed automatically, reinstall it under<br />
+<code>Edit - Preferences - Cite - Word Processors</code> (close Word before starting the installation)</p>
+<p>To (re)activate the plugin:<br />
+<code>Tools - Add-ons - Zotero Word for Windows Integration - Enable</code></p>
+<h3 id="within-ms-word">Within MS Word</h3>
+<p>The plugin adds an additional tab in MS Word.</p>
+<p><img alt="" src="../images/word.png" />  </p>
+<p><img alt="" src="../images/word1.png" /><br />
+Add a new citation or edit an existing citation in your document at the cursor location.</p>
+<p><img alt="" src="../images/word2.png" /><br />
+Insert a bibliography at the cursor location or edit an existing bibliography.  </p>
+<p><img alt="" src="../images/word3.png" /><br />
+Open the Document Preferences window, e.g., to change the citation style.</p>
+<p><img alt="" src="../images/word4.png" /><br />
+Refresh all citations and the bibliography, updating any item metadata that has changed in your Zotero library.</p>
+<p><img alt="" src="../images/word5.png" /><br />
+Unlink Zotero citations in the document by removing the field codes. It prevents any further automatic updates of the citations and bibliographies.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Removing field codes is irreversible and should usually only be done in a final copy of your document.  </p>
+</div>
+<h3 id="adding-citations-to-a-word-document">Adding citations to a Word document</h3>
+<p>While writing your document, when you get to a point where you want to add a citation, click on the insert citation button in the toolbar and search for the needed citation in the citation dialog. Select your citation from the options shown, then hit enter. If you want to insert multiple citations, continue typing after selecting the first reference.</p>
+<p><img alt="" src="../images/zotero_toword.gif" /></p>
+<p>If you want to add details to a citation, such as a comment before or after or a page number, click on the reference in the citation dialog to open a pop-up window that allows you to enter additional information.</p>
+<p>The option to look at the <em>Classic View</em> will appear by clicking on the Z in the citation dialog. The classic view gives you access to all of your directories and saved citations in your folder. You can also add comments and page numbers in this window and select multiple references to be combined into one citation. If you prefer this view, you can set it as the default under <code>Preferences - Cite - Word Processors - Use classic Add Citation dialog</code>.</p>
+</div>
+<div class="tabbed-block">
+<p>The word processor plugins for LibreOffice are bundled with Zotero and should be installed automatically for each word processor when you first start Zotero. The plugin will allow you to insert citations as you write.</p>
+<p>If the plugin wasn't installed automatically, reinstall it under<br />
+<code>Edit - Preferences - Cite - Word Processors</code> (close LibreOffice before starting the installation)<br />
+To (re)activate the plugin:<br />
+<code>Tools - Add-ons - Zotero LibreOffice Integration - Enable</code></p>
+<h3 id="within-libreoffice">Within LibreOffice</h3>
+<p>The plugin adds a new tab in LibreOffice. The LibreOffice Plugin, other than the Latex and MS Word Plugins, needs <a href="https://java.com/en/download/">Java Runtime Environment</a> installed to work. </p>
+<p><img alt="" src="../images/word.png" /></p>
+<p><strong>Add/Edit Citation</strong><br />
+Add a new citation or edit an existing citation in your document at the cursor location.</p>
+<p><strong>Add/Edit bibliography</strong><br />
+Insert a bibliography at the cursor location or edit an existing bibliography.</p>
+<p><strong>Refresh</strong><br />
+Refresh all citations and the bibliography, updating any item metadata that has changed in your Zotero library.</p>
+<p><strong>Set Document Preferences</strong><br />
+Open the Document Preferences window, e.g., to change the citation style.</p>
+<p><strong>Unlink Citations</strong><br />
+Unlink Zotero citations in the document by removing the field codes. It prevents any further automatic updates of the citations and bibliographies.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Removing field codes is irreversible and should usually only be done in a final copy of your document.  </p>
+</div>
+<h3 id="adding-citations-to-a-libreoffice-documents">Adding citations to a LibreOffice documents</h3>
+<p>While writing your document, when you get to a point where you want to add a citation, click on the insert citation button in the toolbar and search for the citation in your collection in the citation dialog. Select your citation from the options shown, then hit enter. If you want to insert multiple citations, continue typing after selecting the first reference.</p>
+<p><img alt="" src="../images/libreoffice.gif" /></p>
+<p>Click on the reference in the citation dialog to add details manually to the citation.</p>
+<p>The option to look at the <em>Classic View</em> will appear by clicking on the Z in the citation dialog. The classic view opens a window to give you access to all your directories and saved citations in your folder. You can also add comments, page numbers and select multiple references to be combined into one citation. If you prefer this view, you can set it as the default under <code>Preferences - Cite - Word Processors - Use classic Add Citation dialog</code>.</p>
+</div>
+</div>
+</div>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Benjamin Buettner with &hearts;
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.instant"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+    
+  </body>
+</html>
