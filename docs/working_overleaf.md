@@ -23,7 +23,7 @@ You can decide between three different ways to use Zotero and Overleaf.
 === "Manual Integration"
     This is the simplest, most cost-effective approach and it doesn't require an Overleaf premium account. However, each change in Zotero necessitates a manual upload of the .bib file.
 	
-	[After creating and exporting the .bib file](/Bens_Zotero/adding-citations.md), navigate to your Overleaf project, click on the 'Upload' button, and select (or drag-and-drop) the .bib file.
+	[After creating and exporting the .bib file](/Bens_Zotero/adding-citations/), navigate to your Overleaf project, click on the 'Upload' button, and select (or drag-and-drop) the .bib file.
 
 	![](images/manual_upload.gif)
 
@@ -34,7 +34,7 @@ You can decide between three different ways to use Zotero and Overleaf.
 
 	In Overleaf, go to 'Account -- Account Settings' and scroll down to 'Integrations -- Zotero Integration'. To link your Zotero Account, enter your credentials and grant Overleaf the necessary permissions. Once your account is successfully linked, the ![](images/Zotero_Integration_Linked2.png) should change to ![](images/Zotero_Integration_Linked1.png).
 
-	To create a new .bib file from Zotero, open an Overleaf project, select 'New File', and choose 'From Zotero'. Provide a name and format, then click 'Create'. Depending on your database size, generating the .bib file might take some time. Once completed, a read-only .bib file will appear in your project. From here, [you can continue as for any LaTeX project](/Bens_Zotero/adding-citations.md). Keep in mind that citation keys might differ from those in your local Zotero Database if you use any plugins that modify them locally.
+	To create a new .bib file from Zotero, open an Overleaf project, select 'New File', and choose 'From Zotero'. Provide a name and format, then click 'Create'. Depending on your database size, generating the .bib file might take some time. Once completed, a read-only .bib file will appear in your project. From here, [you can continue as for any LaTeX project](/Bens_Zotero/adding-citations/). Keep in mind that citation keys might differ from those in your local Zotero Database if you use any plugins that modify them locally.
 
 	![](images/zotero_integration.gif)
 
@@ -49,7 +49,7 @@ You can decide between three different ways to use Zotero and Overleaf.
 
 	![](images/keep_updated.png)
 
-	To maintain a synchronized bibliography, we'll utilize this Dropbox integration and follow the standard [procedure when working with LaTeX](/Bens_Zotero/adding-citations.md), but adjusting the Translator Export options accordingly. First, if you haven't already done so during your Zotero setup, install the [excellent Add-on 'Better BibTex for Zotero'](https://retorque.re/zotero-better-bibtex/) ([more info here](/Bens_Zotero/adding-citations.md)). Next, right-click on the folder containing the needed references and select 'Export Collection...'. Choose the 'Better BibTex' format, finalize the Translator Options, but ensure 'Keep updated' is activated before confirming with OK. Finally, save the .bib file into the Dropbox folder on your computer that contains your Overleaf project.
+	To maintain a synchronized bibliography, we'll utilize this Dropbox integration and follow the standard [procedure when working with LaTeX](/Bens_Zotero/adding-citations/), but adjusting the Translator Export options accordingly. First, if you haven't already done so during your Zotero setup, install the [excellent Add-on 'Better BibTex for Zotero'](https://retorque.re/zotero-better-bibtex/) ([more info here](/Bens_Zotero/adding-citations/)). Next, right-click on the folder containing the needed references and select 'Export Collection...'. Choose the 'Better BibTex' format, finalize the Translator Options, but ensure 'Keep updated' is activated before confirming with OK. Finally, save the .bib file into the Dropbox folder on your computer that contains your Overleaf project.
 
 	![](images/keep_updated2.png)
 
