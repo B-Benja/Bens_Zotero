@@ -60,11 +60,12 @@ However, most people use Zotero in combination with Word processing Software. In
 
         ```
 
-    ## Overleaf and Zotero
-    Find more information on how to synchronise .bib files with the online Latex service Overleaf [in the section Overleaf & Zotero](/Bens_Zotero/working_overleaf/).
-
     === "Renders to"
         ![](images/latex_output.png)
+
+    
+    ## Overleaf and Zotero
+    Find more information on how to synchronise .bib files with the online Latex service Overleaf [in the section Overleaf & Zotero](/Bens_Zotero/working_overleaf/).
 
    
 
