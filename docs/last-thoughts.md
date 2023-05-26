@@ -1,3 +1,10 @@
+---
+hide:
+  - toc
+
+title: 'The end'
+---
+
 # This is the end, beautiful friend
 
 You made it!

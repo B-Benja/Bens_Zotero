@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 **Collections**  
 You always see all articles by clicking on *My Library*. As mentioned before, click on ![](images/03collection.png) the collection button to create collections and subcollections ([How to create Collections.](images/01collection.gif)). To add items to collections, you need to drag and drop them. When deleting an item in a collection, the item will be removed from the collection but not from Zotero.  
 To delete the item from Zotero entirely, in *My library* right-click on the item and select *Move item to bin*.

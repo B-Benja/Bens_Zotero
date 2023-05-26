@@ -1,4 +1,8 @@
-# Small QoL improvements
+---
+title: 'QoL improvements'
+---
+
+# QoL improvements
 
 The following page provides a collection of useful functions and Quality of Life improvements.
 
