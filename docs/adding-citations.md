@@ -39,6 +39,7 @@ However, most people use Zotero in combination with Word processing Software. In
 
     ![](images/bibtexexport.gif)
 
+    
     ## Within Latex
 
     Now you can easily refer to the .bib file in Latex as usual.
@@ -58,6 +59,9 @@ However, most people use Zotero in combination with Word processing Software. In
         \end{document}
 
         ```
+
+    ## Overleaf and Zotero
+    Find more information on how to synchronise .bib files with the online Latex service Zotero [in the section Overleaf & Zotero](/Bens_Zotero/working_overleaf/).
 
     === "Renders to"
         ![](images/latex_output.png)
