@@ -71,7 +71,7 @@ As mentioned, Zotero has a big community and offers multiple Plugins to improve 
 A Zotero plugin to manage your attachments (described above).
 
 [Better BibTex](https://retorque.re/zotero-better-bibtex/)  
-A Plugin for better Latex support (already discussed in an earlier chapter)
+A Plugin for better Latex support (already discussed in an earlier chapter).
 
 [Night for Zotero](https://github.com/tefkah/zotero-night)
 A dark mode for Zotero.
