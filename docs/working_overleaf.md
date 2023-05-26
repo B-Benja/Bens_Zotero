@@ -1,3 +1,10 @@
+---
+hide:
+  - toc
+
+title: 'Overleaf & Zotero'
+---
+
 ## About Overleaf
 Overleaf is an online collaborative writing and publishing platform designed specifically for researchers and academics who work on documents such as scientific papers, reports, and presentations. It provides a streamlined interface for creating, editing, and sharing documents in real-time with co-authors.
 
@@ -13,7 +20,7 @@ You can decide between three different ways to use Zotero and Overleaf.
 - [x] Direct integration of Zotero (needs Overleaf premium)
 - [X] Synch Zotero via Dropbox with Overleaf (needs Overleaf premium) [I use this approach]
 
-== "Manual Integration"
+=== "Manual Integration"
     The easiest, simplest and cost effcient (no Overleaf premium account needed) approach. Needs, however, a manual upload of the .bib file for every change in Zotero.
 	
 	[After creating and exporting the .bib file](working_overleaf), go to your Overleaf project, click on the Upload button and select (or drag-and-drop) the .bib file.
@@ -22,7 +29,7 @@ You can decide between three different ways to use Zotero and Overleaf.
 	
 	Add the necessary Latex code and enjoy referencing.
 	
-== "Direct Zotero Integration"
+=== "Direct Zotero Integration"
 	If you have Overleaf Premium, you can make use of the build-in Zotero Integration. It is very simple to activate and use, and needs little manual input after the setup (the setup itself is also very simple). However, big Zotero databases might cause issues, because you will always need to import ALL your references. Additionally, you have little to no custimiation options.
 	
 	In Overleaf, go to 'Account -- Account Settings' and scroll down to 'Integrations -- Zotero Integration'. Link your Zotero Account by entering your credentials and granting Overleaf the necesary permissions. After sucessfully linking the account, the ![](images/Zotero_Integration_Linked2.png) should change to ![](images/Zotero_Integration_Linked1.png).
@@ -34,7 +41,7 @@ You can decide between three different ways to use Zotero and Overleaf.
 	If you make changes in Zotero, you can select the .bib file in your Overleaf project and hit 'Refresh', which will re-import the file from Zotero.
 	
 	
-== "Zotero Integration via Dropbox"
+=== "Zotero Integration via Dropbox"
 	If you have Overleaf Premium, you can make use of the built-in Dropbox Integration. It is still relatively simple to setup, but needs some additional steps. After the intital setup, you will need to invest little manual work, while still keeping control over the customization. Keep in mind, that you need a Dropbox Account, its integration in your OS and that you rely on this 3rd party cloud service with your bibliographic and Latex data!
 
 	In Overleaf, go to 'Account -- Account Settings' and scroll down to 'Integrations -- Project Synchronisation -- Dropbox'. Link your Zotero Account by entering your credentials and granting Overleaf the necesary permissions. After sucessfully linking the account, the ![](images/Zotero_Integration_Linked2.png) should change to ![](images/Zotero_Integration_Linked1.png).
